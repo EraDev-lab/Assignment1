@@ -50,7 +50,7 @@
         android:layout_width="318dp"
         android:layout_height="wrap_content"
         android:onClick="activity_ahmed"
-        android:text="احمد"
+        android:text="  done احمد"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="33dp"
