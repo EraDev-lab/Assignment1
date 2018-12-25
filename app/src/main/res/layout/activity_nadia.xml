@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/era"
     tools:context=".nadia">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="صمم ما يحلو لك !!"
-        android:textColor="#000000"
-        android:textSize="28sp"
-        />
+        android:text="Good luck"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
 </android.support.constraint.ConstraintLayout>
