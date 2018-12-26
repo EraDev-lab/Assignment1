@@ -12,6 +12,6 @@
         android:text="Hi to all"
         android:textColor="#311B92"
         android:textSize="50sp"
-        android:background="#B388FF"
+        android:background="#9575CD"
         />
 </android.support.constraint.ConstraintLayout>
