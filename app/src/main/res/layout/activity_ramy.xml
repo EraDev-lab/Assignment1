@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="صمم ما يحلو لك !!"
+        android:text="Happy new year"
         android:textColor="#000000"
         android:textSize="28sp"
         />
