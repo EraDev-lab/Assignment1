@@ -62,13 +62,14 @@ public class motwkel extends AppCompatActivity {
                     Date event_date = dateFormat.parse(EVENT_DATE_TIME);
                     Date current_date = new Date();
                     if (!current_date.after(event_date)) {
+                        // some calculation
                         long diff = event_date.getTime() - current_date.getTime();
                         long Days = diff / (24 * 60 * 60 * 1000);
                         long Hours = (diff/ (60 * 60 * 1000)) % 24;
                         long Minutes = diff / (60 * 1000) % 60;
                         long Seconds = diff / 1000 % 60;
-                        //
 
+                        // format will be like that ...
                         tv_days.setText(String.format("%02d", Days));
                         tv_hour.setText(String.format("%02d", Hours));
                         tv_minute.setText(String.format("%02d", Minutes));
@@ -87,6 +88,7 @@ public class motwkel extends AppCompatActivity {
     }
 
     protected void onStop() {
+        // on the timer stop
         super.onStop();
         handler.removeCallbacks(runnable);
 

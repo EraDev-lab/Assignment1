@@ -9,8 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="صمم ما يحلو لك !!"
-        android:textColor="#000000"
-        android:textSize="28sp"
+        android:text="Hi to all"
+        android:textColor="#311B92"
+        android:textSize="50sp"
+        android:background="#9575CD"
         />
 </android.support.constraint.ConstraintLayout>
